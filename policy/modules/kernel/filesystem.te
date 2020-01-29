@@ -17,7 +17,6 @@ attribute xattrfs;
 #
 type fs_t;
 fs_xattr_type(fs_t)
-sid fs gen_context(system_u:object_r:fs_t,s0)
 
 # Use xattrs for the following filesystem types.
 # Requires that a security xattr handler exist for the filesystem.
